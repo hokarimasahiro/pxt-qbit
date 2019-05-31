@@ -50,11 +50,6 @@ enum QbitRGBPixelMode {
  * QbitRGBLight Functions
  */
 namespace QbitRGBLight {
-    //% shim=sendBufferAsm
-    //% parts="QbitRGBLight"
-//    function sendBuffer(buf: Buffer, pin: DigitalPin) {
-//
-//    }
 
     /**
     * A LHQbitRGBLight class
