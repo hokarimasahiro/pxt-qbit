@@ -3,8 +3,7 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "ws2812b": "github:microsoft/pxt-ws2812b#v0.0.4"
+        "core": "*"
     },
     "files": [
         "README.md",
