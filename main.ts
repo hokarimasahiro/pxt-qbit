@@ -751,8 +751,8 @@ namespace qbit {
     //% weight=83 blockGap=50 blockId=getSensorLightLevel block="Get color sensor light level"
     export function getSensorLightLevel(): number {
         let lightLevel: number = readAmbientLight();
-        serial.writeNumber(lightLevel);
-        serial.writeLine("->light level");
+//        serial.writeNumber(lightLevel);
+//        serial.writeLine("->light level");
         return lightLevel;
     }
 
